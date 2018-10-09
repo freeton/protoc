@@ -1,4 +1,4 @@
-package com.cmcm.oa.protoc;
+package com.mycm.oa.protoc;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -16,7 +16,7 @@ public class Start {
     public static void main(String[] args) throws IOException {
         PersonMsg.Person.Builder builder=PersonMsg.Person.newBuilder();
         builder.setId(1);
-        builder.setEmail("123@cmcm.com");
+        builder.setEmail("123@mycm.com");
         builder.setName("haha");
 
         PersonMsg.Person person=builder.build();
